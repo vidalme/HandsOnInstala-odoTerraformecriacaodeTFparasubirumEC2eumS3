@@ -18,10 +18,3 @@ resource "aws_instance" "ubuntu24" {
     Name = var.instance_name
   }
 }
-
-resource "aws_s3_bucket" "essetresbalde" {
-  bucket = "essetresbalde"
-  tags = {
-    Name        = "essetresbalde"
-  }
-}
